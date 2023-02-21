@@ -1333,9 +1333,9 @@ class Main:
 				open("2009-Arain-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;93m[Arain-OK] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;94m[Arain-Cp] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-Arain-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-Arain-Cp.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
